@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FavoriteStop" representedClassName="FavoriteStop" parentEntity="Stop" syncable="YES">
+        <attribute name="favorite_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Info" syncable="YES">
+        <attribute name="topoID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Stop" representedClassName="Stop" syncable="YES">
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="eta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceMnemos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stopId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FavoriteStop" positionX="-18" positionY="99" width="128" height="60"/>
+        <element name="Info" positionX="-353" positionY="102" width="128" height="60"/>
+        <element name="Stop" positionX="-189" positionY="45" width="128" height="180"/>
+    </elements>
+</model>

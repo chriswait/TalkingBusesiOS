@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TB_Hostname</key>
+	<string>http://bus.makexi.st</string>
+	<key>GetBusStopsService</key>
+	<string>cgi-bin/getStopsDB.py</string>
+	<key>GetTopoIDService</key>
+	<string>cgi-bin/getTopoID.py</string>
+	<key>MBT_Hostname</key>
+	<string>http://ws.mybustracker.co.uk</string>
+	<key>MBT_Module</key>
+	<string>json</string>
+	<key>GetBusTimesFunction</key>
+	<string>getBusTimes</string>
+	<key>GetJourneyTimesFunction</key>
+	<string>getJourneyTimes</string>
+</dict>
+</plist>
